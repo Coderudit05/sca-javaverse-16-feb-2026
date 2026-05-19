@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.section{
+    height: 100vh;
+    background: linear-gradient(to right, rgb(17, 24, 39), rgb(75, 85, 99));
+    padding: 0.1px;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: white;
+}
+
+.img-box{
+    height: 45%;
+    background-color: yellowgreen;
+}
+
+.img-box img{
+    height: 100%;
+    width: 100%;
+}
+
+.info-box{
+    height: 55%;
+    /* background-color: violet; */
+    /* color: white; */
+    padding: 20px;
+}
+
+.info-box h3{
+    margin-bottom: 6px;
+    background-color: aquamarine;
+    width: fit-content;
+    padding: 4px 10px;
+    border-radius: 30px;
+}
+
+.info-box h2{
+    margin-bottom: 6px;
+}
+.info-box p{
+    text-transform: capitalize;
+}
+
+.info-box button{
+    border: none;
+    background-color: aquamarine;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font: bold;
+    font-size: 16px;
+}

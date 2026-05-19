@@ -1,0 +1,2 @@
+Inline : they always allow the other inline elements besides them but they never increase their height and width 
+block : they will allow you to change their height and width but will never the other elements to come beside them
