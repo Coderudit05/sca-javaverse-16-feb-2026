@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+.parent{
+    height: 100vh;
+    background-color: indianred;
+    padding: 0.1px;
+}
+
+#card{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+
+#card span{
+    height: 50px;
+    /* width: 150px; */
+    display: inline-block;
+    /* background-color: brown; */
+    padding: 20px 30px;
+}
+
+#card span img{
+    height: 25px;
+    width: 25px;
+}
+
+#card p{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 20px 30px;
+    color: gray;
+}
+
+#card p b{
+    color: black;
+    font-size: 25px;
+}
