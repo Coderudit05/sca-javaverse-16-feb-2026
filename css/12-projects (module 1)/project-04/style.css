@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.page {
+    height: 100vh;
+    background: conic-gradient(at 0% 50%, rgb(56, 189, 248), rgb(30, 64, 175));
+    padding: 0.1px;
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    border: 3px solid rgb(133, 133, 206);
+
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: white;
+    border-radius: 10px;
+    
+    padding: 20px 30px;
+}
+
+.card h3{
+    margin: 10px 0px;
+}
+
+.para{
+    margin: 10px 0px;
+}
+
+.card h1{
+    font-size: 40px;
+}
+
+.card h1 span{
+    font-size: 20px;
+    color: gray;
+}
+
+.bill-para{
+    color: gray;
+}
+
+.btn-box{
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.btn-box button{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+.feature-list{
+
+}
+
+.feature-list p{
+    font: bold;
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+
+.feature-list ul{
+    list-style: none;
+}
+
+ul li img{
+    height: 20px;
+    margin: 0px 5px;
+}
