@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        background-color: black;
+      }
+
+      header {
+        display: flex;
+        /* background-color: violet; */
+        height: 64px;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 0px 40px;
+
+        color: white;
+        border-bottom: 1px solid white;
+      }
+
+      h2 {
+      }
+
+      nav {
+        display: flex;
+        gap: 20px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: white;
+      }
+
+
+      .nav-btns{
+
+      }
+      
+      .nav-btns button{
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
+    }
+    
+    #btn1{
+        background-color: indianred;
+      }
+
+      #btn2{
+        background-color: transparent;
+
+        border: 2px solid indianred;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>MyDev.</h2>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Work</a>
+        <a href="#">Projects</a>
+      </nav>
+
+      <div class="nav-btns">
+        <button id="btn1">Login</button>
+        <button id="btn2">Signup</button>
+      </div>
+    </header>
+  </body>
+</html>
