@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,body{
+            height: 100%;
+        }
+
+        body{
+            background-color: black;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .loading-tracker{
+            height: 50px;
+            width: 700px;
+            border: 3px solid white;
+            border-radius: 50px;
+
+            overflow: hidden;
+        }
+
+        .loading-bar{
+            height: 100%;
+            width: 0%;
+            background-color: greenyellow;
+
+            transition: width 10s linear;
+        }
+
+        .loading-tracker:hover .loading-bar{
+            width: 100%;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="loading-tracker">
+        <div class="loading-bar"></div>
+    </div>
+</body>
+</html>

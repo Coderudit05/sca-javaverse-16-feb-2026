@@ -47,39 +47,23 @@
 
         position: relative;
       }
-
-      nav a::before {
-        content: "";
+      nav a::before{
+        content: '';
+        width: 10%;
         height: 2px;
-        width: 0%;
-        background-color: red;
-
+        background-color: blueviolet;
         position: absolute;
 
         bottom: 0;
-
-        transition-property: width;
-        transition-duration: 2s;
-        /* transition-timing-function: linear; */
-        transition-timing-function: ease-in-out;
-
-
-
       }
-
-      nav a:hover::before {
-        width: 100%;
-
-      }
-
-      #nav-btn {
-      }
-
       #nav-btn button {
         padding: 10px 20px;
         border-radius: 6px;
         border: none;
         cursor: pointer;
+        background-color: brown;
+        color: white;
+        font-size: 16px;
       }
     </style>
   </head>
