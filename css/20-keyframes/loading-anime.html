@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        background-color: black;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+      }
+
+      .box {
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+      }
+
+      .loading-box {
+        height: 90px;
+        width: 90px;
+        border: 10px solid rgba(128, 128, 128, 0.616);
+
+        border-top: 10px solid aqua;
+        border-radius: 50%;
+
+        animation-name: loading-anime;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+      }
+
+
+      @keyframes loading-anime {
+        
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            
+            transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="loading-box"></div>
+    </div>
+  </body>
+</html>
