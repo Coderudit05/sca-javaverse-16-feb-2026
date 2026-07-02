@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+      src="https://kit.fontawesome.com/f12c1313f0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        background-color: black;
+        color: white;
+      }
+
+      header {
+        display: flex;
+        /* background-color: white; */
+        box-shadow: 0px 0px 10px gray;
+        height: 64px;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0px 40px;
+      }
+
+      #logo {
+        font-size: 40px;
+        /* display:flex; */
+      }
+
+      #logo span {
+        background: linear-gradient(
+          to right,
+          rgb(236, 72, 153),
+          rgb(239, 68, 68),
+          rgb(234, 179, 8)
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 60px;
+        display: inline-block;
+      }
+
+      nav {
+        display: flex;
+        gap: 20px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+      }
+
+      #nav-btn {
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 18px;
+        background-color: transparent;
+        border: 2px solid peru;
+        color: white;
+      }
+
+      #menu-icon {
+        font-size: 30px;
+        display: none;
+      }
+
+      @media (max-width: 630px) {
+        nav {
+          display: none;
+        }
+
+        #nav-btn {
+          display: none;
+        }
+
+        #menu-icon {
+          display: inline-block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="logo">Dev<span>.</span></div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Work</a>
+      </nav>
+
+      <button id="nav-btn">Let's Connect</button>
+
+      <div id="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+  </body>
+</html>
