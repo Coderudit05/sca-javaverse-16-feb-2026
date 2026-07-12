@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        #hero {
+            background: linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+            min-height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        #status {
+            font-size: 18px;
+            background-color: #2E3747;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        #heading {
+            font-size: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-weight: 900;
+            margin-bottom: 30px;
+        }
+
+        #para {
+            font-size: 18px;
+            /* background-color: purple; */
+            max-width: 550px;
+            text-align: center;
+            color: gray;
+            margin-bottom: 30px;
+        }
+
+        #hero-btns {
+            /* background-color: purple; */
+            display: flex;
+            gap: 40px;
+        }
+
+        #hero-btns button {
+            padding: 10px 30px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+
+        @media (max-width:650px) {
+
+            #heading {
+                /* background-color: peru; */
+                font-size: 30px;
+                /* max-width: 500px; */
+                padding: 0px 5px;
+
+                line-height: 35px;
+            }
+            
+
+            #hero-btns {}
+        }
+
+
+        @media (max-width:500px) {
+            #hero-btns{
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+        
+        @media (max-width:400px) {
+            
+            #heading {
+                /* background-color: peru; */
+                font-size: 25px;
+                /* max-width: 500px; */
+                padding: 0px 5px;
+                line-height: 30px;
+            }
+
+
+            #hero-btns {
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <section id="hero">
+
+        <p id="status">Optimize Your Workflow</p>
+        <h1 id="heading">Elevate Your Business Using <br> AI Driven Automation</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facere deleniti nisi repellat
+            similique corporis
+            facilis nemo iste earum possimus?</p>
+
+        <div id="hero-btns">
+            <button class="">Start Free Trial</button>
+            <button class="">Book A Demo</button>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
